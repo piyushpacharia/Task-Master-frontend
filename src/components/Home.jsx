@@ -41,7 +41,7 @@ export default function RightSidebar() {
 
          
           <div className="d-flex justify-content-center">
-            <h2 className="text-center " style={{ fontFamily: "Cantora One",borderBottom:"1px solid black" }}>
+            <h2 className="text-center " style={{ fontFamily: "Cantora One", }}>
               YOU HAVE TO DO THESE TASKS
             </h2>
           </div>
