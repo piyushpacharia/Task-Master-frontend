@@ -14,7 +14,7 @@ export default function App() {
 const [masterUser,setMasterUser]=useState(null);
 const [masterTask,setMasterTask]=useState([]);
 const navigate=useNavigate();
-const BASE_URL ="https://task-master-kcjy.onrender.com";
+const BASE_URL ="https://task-master-llyr.onrender.com";
 const login=(email,password)=>{
      fetch(`${BASE_URL}/auth/login`,{
       method:"POST",
