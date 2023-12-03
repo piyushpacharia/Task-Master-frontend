@@ -14,7 +14,7 @@ export default function App() {
 const [masterUser,setMasterUser]=useState(null);
 const [masterTask,setMasterTask]=useState([]);
 const navigate=useNavigate();
-const BASE_URL ="http://13.51.159.52:8000/";
+const BASE_URL ="http://51.20.121.99:8000/";
 const login=(email,password)=>{
      fetch(`${BASE_URL}/auth/login`,{
       method:"POST",
